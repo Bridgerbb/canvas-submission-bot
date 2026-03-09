@@ -69,7 +69,7 @@ def submit_github_url(course_id, assignment_id, repo_url):
     response = requests.post(url, headers=HEADERS, data=data)
     
     if response.status_code == 201:
-        print("\n✅ SUCCESS! Your GitHub URL has been submitted! Enjoy the bonus points!")
+        print("\n✅ SUCCESS! Your URL has been submitted!")
     else:
         print(f"\n❌ Failed to submit. Error {response.status_code}: {response.text}")
 
