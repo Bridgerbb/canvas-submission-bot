@@ -59,7 +59,7 @@ Submit to assignment 67890? (y/n): y
 
 Output:
 
-✅ SUCCESS! Your GitHub URL has been submitted! Enjoy the bonus points!
+✅ SUCCESS! Your GitHub URL has been submitted!
 
 API Endpoints Used
 GET /api/v1/courses : Lists active courses where the user is enrolled as a student.
